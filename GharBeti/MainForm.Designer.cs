@@ -54,8 +54,8 @@
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblUsername = new System.Windows.Forms.ToolStripStatusLabel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblTimer = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -72,7 +72,7 @@
             this.arrangementToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(791, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(484, 24);
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -89,19 +89,19 @@
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
             this.newToolStripMenuItem.Text = "new";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
             this.saveToolStripMenuItem.Text = "save";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // editToolStripMenuItem
@@ -120,7 +120,7 @@
             // 
             this.createUserToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("createUserToolStripMenuItem.Image")));
             this.createUserToolStripMenuItem.Name = "createUserToolStripMenuItem";
-            this.createUserToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.createUserToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.createUserToolStripMenuItem.Text = "CreateUser";
             this.createUserToolStripMenuItem.Click += new System.EventHandler(this.createUserToolStripMenuItem_Click);
             // 
@@ -128,20 +128,20 @@
             // 
             this.backupToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("backupToolStripMenuItem.Image")));
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.backupToolStripMenuItem.Text = "Backup";
             // 
             // manageRolesToolStripMenuItem
             // 
             this.manageRolesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("manageRolesToolStripMenuItem.Image")));
             this.manageRolesToolStripMenuItem.Name = "manageRolesToolStripMenuItem";
-            this.manageRolesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.manageRolesToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.manageRolesToolStripMenuItem.Text = "ManageRoles";
             // 
             // viewUserInfoToolStripMenuItem
             // 
             this.viewUserInfoToolStripMenuItem.Name = "viewUserInfoToolStripMenuItem";
-            this.viewUserInfoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.viewUserInfoToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.viewUserInfoToolStripMenuItem.Text = "View User Info";
             // 
             // viewToolStripMenuItem
@@ -156,7 +156,7 @@
             // viewUserInfoToolStripMenuItem1
             // 
             this.viewUserInfoToolStripMenuItem1.Name = "viewUserInfoToolStripMenuItem1";
-            this.viewUserInfoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.viewUserInfoToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
             this.viewUserInfoToolStripMenuItem1.Text = "ViewUserInfo";
             // 
             // utilitiesToolStripMenuItem
@@ -205,7 +205,7 @@
             this.toolStripButton2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(791, 52);
+            this.toolStrip1.Size = new System.Drawing.Size(484, 52);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -246,9 +246,9 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblUsername,
             this.lblTimer});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 239);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 439);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(791, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(484, 22);
             this.statusStrip1.TabIndex = 4;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -258,11 +258,6 @@
             this.lblUsername.Size = new System.Drawing.Size(73, 17);
             this.lblUsername.Text = "lblUsername";
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // lblTimer
             // 
             this.lblTimer.Image = ((System.Drawing.Image)(resources.GetObject("lblTimer.Image")));
@@ -270,17 +265,23 @@
             this.lblTimer.Size = new System.Drawing.Size(54, 17);
             this.lblTimer.Text = "Timer";
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 261);
+            this.ClientSize = new System.Drawing.Size(484, 461);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip2);
             this.IsMdiContainer = true;
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

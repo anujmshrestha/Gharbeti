@@ -31,5 +31,19 @@ namespace GharBeti
         {
             lblCreateuser.BackColor = Color.Yellow;
         }
+        
+        private void lblCreateuser_Click(object sender, EventArgs e)
+        {
+            _Createuser frm = new _Createuser();
+            panel4.Controls.Clear();
+            panel4.Controls.Add(frm);
+        }
+
+        private void lblViewuser_Click(object sender, EventArgs e)
+        {
+            _ViewUser frm = new _ViewUser();
+            panel4.Controls.Clear();
+            panel4.Controls.Add(frm);
+        }
     }
 }

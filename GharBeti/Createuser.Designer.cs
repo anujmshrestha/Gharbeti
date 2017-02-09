@@ -31,10 +31,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblEdituser = new System.Windows.Forms.Label();
+            this.lblViewuser = new System.Windows.Forms.Label();
             this.lblCreateuser = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.lblViewuser = new System.Windows.Forms.Label();
-            this.lblEdituser = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,16 +44,16 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(284, 42);
+            this.panel1.Size = new System.Drawing.Size(484, 42);
             this.panel1.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 220);
+            this.panel2.Location = new System.Drawing.Point(0, 420);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(284, 41);
+            this.panel2.Size = new System.Drawing.Size(484, 41);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -66,37 +66,8 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 42);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(86, 178);
+            this.panel3.Size = new System.Drawing.Size(86, 378);
             this.panel3.TabIndex = 0;
-            // 
-            // lblCreateuser
-            // 
-            this.lblCreateuser.BackColor = System.Drawing.Color.Yellow;
-            this.lblCreateuser.Location = new System.Drawing.Point(0, 3);
-            this.lblCreateuser.Name = "lblCreateuser";
-            this.lblCreateuser.Size = new System.Drawing.Size(86, 27);
-            this.lblCreateuser.TabIndex = 0;
-            this.lblCreateuser.Text = "Create User";
-            this.lblCreateuser.MouseLeave += new System.EventHandler(this.lblCreateuser_MouseLeave);
-            this.lblCreateuser.MouseHover += new System.EventHandler(this.lblCreateuser_MouseHover);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Lime;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(86, 42);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(198, 178);
-            this.panel4.TabIndex = 2;
-            // 
-            // lblViewuser
-            // 
-            this.lblViewuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.lblViewuser.Location = new System.Drawing.Point(0, 56);
-            this.lblViewuser.Name = "lblViewuser";
-            this.lblViewuser.Size = new System.Drawing.Size(83, 27);
-            this.lblViewuser.TabIndex = 1;
-            this.lblViewuser.Text = "View User";
             // 
             // lblEdituser
             // 
@@ -107,17 +78,49 @@
             this.lblEdituser.TabIndex = 2;
             this.lblEdituser.Text = "Edit User";
             // 
+            // lblViewuser
+            // 
+            this.lblViewuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.lblViewuser.Location = new System.Drawing.Point(0, 56);
+            this.lblViewuser.Name = "lblViewuser";
+            this.lblViewuser.Size = new System.Drawing.Size(83, 27);
+            this.lblViewuser.TabIndex = 1;
+            this.lblViewuser.Text = "View User";
+            this.lblViewuser.Click += new System.EventHandler(this.lblViewuser_Click);
+            // 
+            // lblCreateuser
+            // 
+            this.lblCreateuser.BackColor = System.Drawing.Color.Yellow;
+            this.lblCreateuser.Location = new System.Drawing.Point(0, 3);
+            this.lblCreateuser.Name = "lblCreateuser";
+            this.lblCreateuser.Size = new System.Drawing.Size(86, 27);
+            this.lblCreateuser.TabIndex = 0;
+            this.lblCreateuser.Text = "Create User";
+            this.lblCreateuser.Click += new System.EventHandler(this.lblCreateuser_Click);
+            this.lblCreateuser.MouseLeave += new System.EventHandler(this.lblCreateuser_MouseLeave);
+            this.lblCreateuser.MouseHover += new System.EventHandler(this.lblCreateuser_MouseHover);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Lime;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(86, 42);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(398, 378);
+            this.panel4.TabIndex = 2;
+            // 
             // Createuser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(484, 461);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Createuser";
             this.Text = "Createuser";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
