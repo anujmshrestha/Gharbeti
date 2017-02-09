@@ -1,0 +1,13 @@
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\bin\Debug\GharBeti.exe.config
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\bin\Debug\GharBeti.exe
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\bin\Debug\GharBeti.pdb
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.csprojResolveAssemblyReference.cache
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.MainForm.resources
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.Properties.Resources.resources
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.csproj.GenerateResource.Cache
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.exe
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.pdb
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.Login.resources
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti.Createuser.resources
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti._Createuser.resources
+c:\users\gongmakz\documents\visual studio 2015\Projects\GharBeti\GharBeti\obj\Debug\GharBeti._ViewUser.resources
